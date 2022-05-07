@@ -25,9 +25,10 @@ The request must be asynchronous, during the request show some loading indicator
 Endpoints to be used:  
 1) **GET:** `api.openweathermap.org/data/2.5/weather?q=<CITY_NAME>`  
 2) **GET:** `https://openweathermap.org/img/w/<ICON_ID>.png`  
-Assessment Grading  
+**Assessment Grading**
 - App Architecture & Code style/quality & Documentation of Code  
 - User Interface  
 - Error Handling  
 - Interpreta3on of specifica3on  
 - Tests  
+
