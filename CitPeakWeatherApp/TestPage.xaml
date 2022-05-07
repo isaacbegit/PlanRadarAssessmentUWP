@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="CitPeakWeatherApp.TestPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CitPeakWeatherApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="500" Height="800">
+
+    <Grid>
+        <StackPanel Background="WhiteSmoke"  Orientation = "Horizontal" VerticalAlignment="Top"  HorizontalAlignment="Stretch" Width="480" >
+            <Button x:Name = "BtnAddCity" Content = "Add City" Foreground="White"  HorizontalAlignment="Right"  Background="#2A89C5" Margin = "10" Width = "120" Height = "30" />
+            <Button x:Name = "BtnHome" Content = "Home" HorizontalAlignment="Right"  Foreground="White" Background="#2A89C5" Margin = "10" Width = "120" Height = "30" />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0,55,0,0">
+            <ScrollViewer HorizontalScrollMode="Auto" VerticalScrollBarVisibility="Auto" >
+                <Frame VerticalAlignment="Stretch"  Content="THIS IS FRAME " x:Name="mainframe" x:FieldModifier="public">
+                    
+                </Frame>
+            </ScrollViewer>
+        </StackPanel>
+
+    </Grid>
+</Page>
