@@ -18,7 +18,8 @@ The request must be asynchronous, during the request show some loading indicator
 • UI/UX must be like the specs ( you can find the specs in the same folder of this document )  
 • Clean architecture, SOLID Principles  
 ![image description](https://github.com/isaacbegit/PlanRadarAssessmentUWP/blob/master/interface.bmp)
-API Info  
+
+#API Info  
 **Weather API:** `https://openweathermap.org`  
 **API Key:** `f5cb0b965ea1564c50c6f1b74534d823`  
 Endpoints to be used:  
